@@ -1,0 +1,94 @@
+body {
+  border-left: 5px solid;
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  font-size: large;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  color: tomato;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: 200;
+  padding-top: 0;
+}
+
+#navigation-tab {
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  color: lightgray;
+}
+
+footer nav a {
+  color: tomato;
+  
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+article h4 {
+  color: gray;
+  font-family: sans-serif;
+}
+
+article p::first-letter {
+  color: lightgray;
+  font-size: 4em;
+  float: left; /* Float the first letter to the left */
+  margin-right: 0.1em; /* Add a small margin to separate it from the text */
+  line-height: 0.8; /* Adjust line height to align it nicely */
+}
+footer p {
+  color: lightgray;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /* Add this line for horizontal spacing */
+}
+footer nav a {
+  text-decoration: none; /* Remove the underline */
+}
+
+article p {
+  color: gray; /* Set the color of the text to gray */
+  font-family: sans-serif;
+}
+
+article p:after {
+  content: ' Continues...'; /* Add ' Continues...' after the paragraph */
+  color: tomato; /* Set the color of 'Continues...' to tomato */
+  text-align: right; /* Align the text to the right */
+  display: block; 
+  font-family: sans-serif;
+}
